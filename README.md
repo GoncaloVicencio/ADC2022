@@ -6,7 +6,7 @@
 - video
 - - video.mp4
 
-- testes
+- testes (quickstart no rdme)
 - - master script
 - - script 1
 - - etc...

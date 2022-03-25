@@ -1,2 +1,12 @@
 # ADC2022
-For everything A(P)DC
+
+- src
+- - Project files
+
+- video
+- - video.mp4
+
+- testes
+- - master script
+- - script 1
+- - etc...

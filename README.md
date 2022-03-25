@@ -1,4 +1,4 @@
-# ADC2022
+# Avaliação Indivudual ADC 21/22
 
 - src
 - - Project files
@@ -10,3 +10,5 @@
 - - master script
 - - script 1
 - - etc...
+
+Gonçalo Vicêncio, 57944

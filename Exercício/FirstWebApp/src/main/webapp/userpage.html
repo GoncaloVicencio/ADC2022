@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<title>User Page</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<a href="/index.html">Home</a> <a href="/news.html">News</a> <a
+			href="/AllotUtil.html">AllotUtil</a> <a href="/projects.html">Projects</a>
+		<a href="/contact.html">Contact</a> <a href="/userpage.html">User</a>
+		<div id="beta">
+			<form id="searchform">
+				<input id="searchq" type="search" name="q"
+					placeholder="Search query"> <input type="submit"
+					value="Search">
+			</form>
+			<a id="signup" href="/registry.html">Sign Up</a>
+			<form id="loginform">
+				<input id="loguser" type="text" placeholder="Username"> <input
+					id="logpass" type="password" placeholder="Password"> <input
+					id="logbutton" type="submit" value="LogIn"
+					onclick="sendFormLogIn()">
+			</form>
+		</div>
+	</div>
+
+	<div class="main">
+		<main>
+			<h1>User page:</h1>
+			<h2 id="user">No user yet</h2>
+			<article>
+				<h2>Update Account Password:</h2>
+				<form>
+					<input id="Uuser" type="text" placeholder="Username"> <input
+						id="UoldPass" type="password" placeholder="Old Password">
+					<input id="Upass" type="password" placeholder="New Password">
+					<input id="updatePasswordButton" type="submit" value="Update"
+						onclick="sendFormUpdatePassword()">
+				</form>
+				<h2>Remove Account:</h2>
+				<form>
+					<input id="Ruser" type="text" placeholder="Username of account to remove">
+					<input id="removeAccountButton" type="submit" value="Remove"
+						onclick="sendFormRemoveAccount()">
+				</form>
+			</article>
+		</main>
+	</div>
+
+	<footer>
+		<p>Gonçalo Vicêncio, 57944</p>
+	</footer>
+
+</body>
+</html>

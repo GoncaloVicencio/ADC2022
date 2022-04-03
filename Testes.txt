@@ -1,0 +1,77 @@
+POST: 
+https://ordinal-ember-344517.appspot.com/rest/register/v4
+
+Body (JSON): 
+test1:
+{
+    "name": "Tester",
+    "username": "g5",
+    "email": "tester@muitofixe.pt",
+    "password": "test4",
+    "password2": "test4",
+    "profile": "INDEFINIDO",
+	"PhoneNoFixed": "INDEFINIDO",
+	"PhoneNoMobile": "INDEFINIDO",
+	"NIF": "INDEFINIDO",
+    "role": "USER",
+    "state": "INATIVO"
+}
+test2:
+{
+    "name": "Tester2",
+    "username": "v3",
+    "email": "tester2@naotaofixe.com",
+    "password": "funcemina3000",
+    "password2": "funcemina3000",
+    "profile": "INDEFINIDO",
+	"PhoneNoFixed": "INDEFINIDO",
+	"PhoneNoMobile": "INDEFINIDO",
+	"NIF": "INDEFINIDO",
+    "role": "USER",
+    "state": "INATIVO"
+}
+
+test3:
+{
+    "name": "Tester3",
+    "username": "d7",
+    "email": "tester3@naslonas.au",
+    "password": "acudam20",
+    "password2": "acudam1",
+    "profile": "INDEFINIDO",
+	"PhoneNoFixed": "INDEFINIDO",
+	"PhoneNoMobile": "INDEFINIDO",
+	"NIF": "INDEFINIDO",
+    "role": "USER",
+    "state": "INATIVO"
+}
+
+
+---------------------------------------------------------------------
+POST: 
+https://ordinal-ember-344517.appspot.com/rest/login/v3
+
+Body (JSON): 
+test1:
+{
+    "username": "g5",
+    "password": "test4"
+}
+
+test2:
+{
+    "username": "v3",
+    "password": "naomelembro"
+}
+
+test3:
+{
+    "username": "d7",
+    "password": "acudam20"
+}
+
+test4:
+{
+    "username": "w1",
+    "password": "oops!"
+}

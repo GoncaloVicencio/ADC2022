@@ -1,5 +1,8 @@
 # Avaliação Indivudual ADC 21/22
 
+Descarregar o ZIP através da botão CODE
+Entrar na pasta ADC-2022
+
 - Código:
 - - Entrar na pasta "Execício". Depois, fazer import da pasta "FirstWebApp"
 
